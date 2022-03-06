@@ -25,8 +25,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
       
-    - name: Executar o Kotlin Linter 
-      run: ./gradlew ktlintStagingDebugCheck 
+#    - name: Executar o Kotlin Linter 
+#      run: ./gradlew ktlintStagingDebugCheck 
 
     - name: Executar testes de unidade 
-      run: ./gradlew testStagingDebugUnitTest
+      run: ./gradlew testDebugUnitTest
